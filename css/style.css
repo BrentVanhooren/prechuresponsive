@@ -1,0 +1,118 @@
+
+.eerstecontainer {
+    background: aqua;
+}
+
+.tweedecontainer {
+    background: green;
+}
+
+.derdecontainer {
+    background: yellow;
+}
+
+.vierkant {
+    height: 100px;
+    width: 100px;
+    background: red;
+}
+
+.vierkant2 {
+    height: 50px;
+    width: 50px;
+    background: blue;
+}
+
+.kleur {
+    background: purple;
+}
+
+/***PRECHU***/
+/**ZEER BELANGRIJK: DE CSS HIERONDER IS DE MOBIELE CSS**/
+/*.iphone{ /** enkel voor slider positioning absolute***/
+/* left:0px;
+ top:0px;
+}*/
+
+.iphone {
+    width: 300px;
+    margin-top: 15px;
+}
+
+#carouselExampleControls > div > div > div > div {
+    top: 0px;
+}
+
+body {
+    color: white;
+}
+
+.bol1 > img {
+    background: #5094f2;
+}
+
+.bol2 > img {
+    background: #d94748;
+}
+
+.bol3 > img {
+    background: #ebbb11;
+}
+
+article > h2{
+    font-size:20px;
+    color:#5094f2;
+}
+
+#the_shopping_cart > div > div > div > article > h3 {
+    font-size: 26px;
+    color: #6f7173;
+}
+
+article > p{
+    font-size:14px;
+    color:#909090;
+    text-align:center;
+}
+#the_shopping_cart > div > div > div > div > h2{
+    font-size:42px;
+    color:#6f7173;
+
+}
+#iphone{
+    width:350px;
+}
+body > nav > div > div > a > p{
+    font-size:42px;
+}
+/***MEDIA QUERIES***/
+/** Extra small devices (portrait phones, less than 576px)
+/**No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)SM*/
+@media (min-width: 576px) {
+}
+
+/*Medium devices (tablets, 768px and up)MD*/
+@media (min-width: 768px) {
+}
+
+/*Large devices (desktops, 992px and up)LG*/
+@media (min-width: 992px) {
+    body > nav > div > div {
+        height: 90px;
+    }
+    #the_shopping_cart > div > div > div > h2{
+        font-size:42px;
+        color:#6f7173;
+
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)XL*/
+@media (min-width: 1200px) {
+}
+
+#responsiveimage{
+    border:5px solid red;
+}
